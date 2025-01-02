@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background: #eee;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+header {
+    background-color: #13a2f5;
+    padding: 16px 32px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    margin-bottom: 40px;
+}
+
+header h1 {
+    color: #fff;
+    font-family: "McLaren", cursive;
+    font-weight: 200;
+    font-weight: 600;
+    text-align: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 20px;
+}
+.card{
+    width: 330px;
+    height: auto;
+}
+.card img{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    height: 580px;
+}
