@@ -26,8 +26,8 @@ const images = [
     },
     {
         key: 6,
-        imageURL: "https://i.pinimg.com/736x/6d/76/32/6d76327f33fe0795943f2b9608c400df.jpg",
-        description: "Victor Gyokeres"
+        imageURL: "https://i.pinimg.com/736x/a6/5c/b4/a65cb4d20a871f00f5e93ab5c9981495.jpg",
+        description: "Antoine Griezman"
     }
 ]
 
